@@ -27,18 +27,18 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:contentDescription="@string/logo"
         android:layout_width="104dp"
         android:layout_height="94dp"
         android:layout_marginStart="104dp"
         android:layout_marginTop="31dp"
         android:layout_marginEnd="41dp"
         android:layout_marginBottom="606dp"
+        android:contentDescription="@string/logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView3"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/CroppedARCMainLogo" />
+        app:srcCompat="@drawable/croppedmainlogo" />
 
     <View
         android:id="@+id/divider"

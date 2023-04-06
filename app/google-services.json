@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "505591460626",
+    "project_id": "albanian-red-cross",
+    "storage_bucket": "albanian-red-cross.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505591460626:android:604d54a8fa2d698adb39cb",
+        "android_client_info": {
+          "package_name": "com.resia.albanianredcross"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505591460626-b0b5v7gtq86uflfamn2l7jl5vud0fk3f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPA6GkEYpxq-R3PCnd91E5ncnJeYrc6HE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505591460626-b0b5v7gtq86uflfamn2l7jl5vud0fk3f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

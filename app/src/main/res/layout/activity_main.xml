@@ -83,6 +83,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/divider3" />
 
+    <ImageView
+        android:id="@+id/imageviewone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+    <ImageView
+        android:id="@+id/imageviewtwo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+    <ImageView
+        android:id="@+id/imageviewthree"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+
     <View
         android:id="@+id/divider3"
         android:layout_width="391dp"

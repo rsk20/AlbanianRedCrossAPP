@@ -84,20 +84,45 @@
         app:layout_constraintTop_toBottomOf="@+id/divider3" />
 
     <ImageView
-        android:id="@+id/imageviewone"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType="centerCrop" />
+        android:id="@+id/imageviewerone"
+        android:layout_width="391dp"
+        android:layout_height="252dp"
+        android:layout_marginStart="5dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/divider2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider3"  />
+
     <ImageView
         android:id="@+id/imageviewtwo"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType="centerCrop" />
+        android:layout_width="391dp"
+        android:layout_height="252dp"
+        android:layout_marginStart="5dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/divider2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider3"  />
     <ImageView
         android:id="@+id/imageviewthree"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType="centerCrop" />
+        android:layout_width="391dp"
+        android:layout_height="252dp"
+        android:layout_marginStart="5dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/divider2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider3" />
 
 
     <View
@@ -114,6 +139,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         tools:visibility="invisible" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="391dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="160dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider2" />
+
 
     <!--<androidx.viewpager2.widget.ViewPager2
          android:id="@+id/ViewPager2"

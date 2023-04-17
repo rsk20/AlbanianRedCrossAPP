@@ -160,3 +160,60 @@ The First Albanian Red Cross app aims to provide users with essential first aid 
 <h4>5. Offline Access:</h4>
 	
 - The app will allow users to access first aid information and emergency contacts even when offline.
+
+
+-------------------------------------------------------
+
+
+<h3><b>Application Design</b></h3>
+
+
+<4>Define the Purpose and Scope:</h4>
+
+The purpose of the app is to provide users with information and guidance on how to administer first aid in emergency situations. The scope of the app includes basic first aid instructions for common injuries and medical emergencies, such as CPR, choking, burns, fractures, and allergies. The target users of the app are general users who may need to administer first aid in emergency situations.
+
+
+<h4>Gather Requirements:</h4>
+
+Requirements are gathered through research, consultation with medical professionals, and feedback from potential users. This may include identifying the most common emergencies, the appropriate first aid procedures, and any legal or ethical considerations.
+
+
+<h4>Create User Stories or Use Cases:</h4>
+
+User stories or use cases are created to outline the various scenarios in which users may need to use the app, such as using the gained knowledge from Prepare & Learn, being able to call imidiatelly the emergency numbers, donating blood and joining a program, activity or volunteer work.
+
+
+<h4>Design the User Interface (UI):</h4>
+
+The UI design should be simple, intuitive, and visually appealing. It should provide easy access to the most critical information and instructions, with clear navigation and a clean layout.
+
+
+<h4>Architectural Design:</h4>
+
+The app could be designed as a mobile application for Android platforms. The architecture may include components such as a user interface layer, a business logic layer for processing first aid instructions, and a data layer for storing emergency contact information or other relevant data.
+
+
+<h4>Database Design:</h4>
+
+The app includes features such as storing user profiles or emergency contact information, a database design would be needed to define the schema and relationships.
+
+
+
+<h4>Define Algorithms and Business Logic:</h4>
+
+Algorithms and business logic would be implemented to process user inputs, such as identifying the type of emergency and providing appropriate first aid instructions based on the selected scenario. For example, if the user selects "CPR," the app would provide step-by-step instructions for performing CPR based on the latest guidelines.
+
+
+<h4>Create Detailed Design Documentation:</h4>
+
+Detailed design documentation would include the user interface design, system architecture, database schema (if applicable), and algorithm or business logic specifications. This documentation serves as a reference for developers during implementation and helps ensure consistency and quality in the final product.
+
+
+<h4>Review and Validate Design:</h4>
+
+The design would be reviewed by relevant stakeholders, such as medical professionals, app developers, and potential users, to ensure that it meets the requirements and is feasible to implement. Feedback would be incorporated, and necessary revisions made to the design.
+
+
+<h4>Iterate and Refine:</h4>
+
+Throughout the development process, the design would be refined iteratively based on feedback and changing requirements. Regular reviews and updates would be performed to ensure that the app remains relevant, accurate, and effective in providing first aid guidance to users.

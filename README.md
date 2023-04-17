@@ -168,7 +168,7 @@ The First Albanian Red Cross app aims to provide users with essential first aid 
 <h3><b>Application Design</b></h3>
 
 
-<4>Define the Purpose and Scope:</h4>
+<h4>Define the Purpose and Scope:</h4>
 
 The purpose of the app is to provide users with information and guidance on how to administer first aid in emergency situations. The scope of the app includes basic first aid instructions for common injuries and medical emergencies, such as CPR, choking, burns, fractures, and allergies. The target users of the app are general users who may need to administer first aid in emergency situations.
 
@@ -217,3 +217,6 @@ The design would be reviewed by relevant stakeholders, such as medical professio
 <h4>Iterate and Refine:</h4>
 
 Throughout the development process, the design would be refined iteratively based on feedback and changing requirements. Regular reviews and updates would be performed to ensure that the app remains relevant, accurate, and effective in providing first aid guidance to users.
+
+![image](https://user-images.githubusercontent.com/111432617/232632731-5405b612-7b5b-4f82-a6b2-54245eaa9b36.png)
+

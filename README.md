@@ -27,7 +27,7 @@ Creating an app about Albanian Red Cross and First Aid to make it easier for a u
 - Used: Kotlin language,
 - JAVA for backend related part
 - XML for frontend related stuff
-- Gradle for database related stuff
+- MySQL for database related stuff
 - Flows of tabs and menus are created
 
 -------------------------------------------------------

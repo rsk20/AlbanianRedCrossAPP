@@ -160,8 +160,8 @@ The First Albanian Red Cross app aims to provide users with essential first aid 
 <h4>5. Offline Access:</h4>
 	
 - The app will allow users to access first aid information and emergency contacts even when offline.
-- With SQLite the datas gained will be stored and retrieved. (SQLite Is an open-source relational database that does not need internet connection and is used to perform database operations on android devices such as storing, manipulating or retrieving persistent data from the database) 
-
+- With SQLite the datas gained will be kept on this database. (SQLite Is an open-source relational database that does not need internet connection and is used to perform database operations on android devices such as storing, manipulating or retrieving persistent data from the database) 
+- Local Storage (Internal/External) will be used to store the data
 
 -------------------------------------------------------
 

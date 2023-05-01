@@ -11,7 +11,7 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
+        android:layout_marginStart="50dp"
         android:layout_marginEnd="70dp"
         android:layout_marginBottom="600dp"
         android:fontFamily="serif-monospace"
@@ -61,9 +61,7 @@
         android:layout_width="391dp"
         android:layout_height="1dp"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="274dp"
         android:layout_marginEnd="1dp"
-        android:layout_marginBottom="316dp"
         android:background="?android:attr/listDivider"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -87,7 +85,7 @@
         app:layout_constraintTop_toBottomOf="@+id/divider" /> -->
 
 
-    <androidx.cardview.widget.CardView
+   <!--  <androidx.cardview.widget.CardView
         android:layout_width="391dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
@@ -97,7 +95,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider2" />
+        app:layout_constraintTop_toBottomOf="@+id/divider2" /> -->
 
     <ImageView
         android:id="@+id/imageView3"
@@ -112,6 +110,66 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/divider"
         app:srcCompat="@drawable/imageviewerthree" />
+
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="278dp"
+        android:layout_marginBottom="187dp"
+        android:background="@color/purple_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider2"
+        />
+
+
+    <FrameLayout
+        android:id="@+id/frameLayouttwo"
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="185dp"
+        android:layout_marginBottom="187dp"
+        android:background="@color/purple_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider2"
+
+
+        />
+
+    <FrameLayout
+        android:id="@+id/frameLayoutthree"
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="242dp"
+        android:layout_marginBottom="46dp"
+        android:background="@color/purple_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout"/>
+
+    <FrameLayout
+        android:id="@+id/frameLayoutFour"
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginBottom="46dp"
+        android:background="@color/purple_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayouttwo"
+        app:layout_constraintVertical_bias="0.0" />
 
 
     <!--<androidx.viewpager2.widget.ViewPager2

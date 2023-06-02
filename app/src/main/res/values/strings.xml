@@ -2,4 +2,36 @@
     <string name="app_name">Albanian Red Cross</string>
     <string name="welcome">Welcome!</string>
     <string name="logo">logo</string>
+
+    <string name="imagemain">imagemain</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="prepare">Prepare</string>
+    <string name="learn">Learn</string>
+    <string name="image">image</string>
+    <string name="Donate">Donate</string>
+    <string name="Volunteer">Volunteer</string>
+    <string name="Programs">Programs</string>
+    <string name="Activities">Activities</string>
+    <string name="donationfirstp">Donating blood is a powerful act of giving hope and saving lives. It is essential to ask ourselves what we would want others to do if we were in need of blood.\n\nThe demand for blood is constant and often surpasses the available supply. In our country, around 30,000 units of blood are needed, while only about 20,000 units are collected. This scarcity affects not only accident victims and patients requiring surgery but also approximately 300 individuals with thalassemia who rely on regular blood transfusions.\n\nBlood is irreplaceable in emergency situations, and no medication can substitute for a transfusion when it becomes necessary. It is a precious resource that can only be sourced from human donors since it cannot be artificially produced. Remember, one day, we might all rely on the generosity of others to provide the life-saving gift of blood.</string>
+    <string name="donationsecondp">- Group 0 is universal group and anyone can donate blood.\n- Group A can donate blood to group A and AB.\n- Group B can donate blood to group B and AB.\n- Group AB can only donate blood to group AB, but can receive blood from other groups.\nIn the Rhesus system, two blood groups are distinguished: Rhesus positive (+ ) if the "D" antigen is present and Rhesus negative ( - ) if the "D" antigen is absent. Anyone who has one \n of the blood groups in the A, B, O system is either Rh (+) positive or Rh (–) negative.\n\nIn the Albanian population, the blood groups are in the \nfollowing percentages:\n\nGroup 0 – 40.1%; Group A – 36.7%; Group B – 17.1%; and Group AB – 6.1%. Rhezus positive people make up 85% of the population, while 15% of the population are Rhezus negative. </string>
+    <string name="donationthirdp">In Tirana, blood donation is done at the KKTGJ in Laprakë,\nQSUT, maternity blood banks 1 and 2. In the districts, it is done at blood banks in hospitals.
+Your blood is replaced quickly, but life is not! Register now!</string>
+    <string name="volunteerfirst">Why Volunteer?</string>
+    <string name="volunteersecond">\nBecause in this way you have the opportunity to: \n1. To become members of a worldwide Humanitarian Movement and a universal humanitarian mission!
+\n2. To realize your natural aspirations against solidarity and humanity!
+\n3. To contribute in this way to changing the lives of people in need and for a better future.
+\n4. To have contact with different people and to be part of a social environment where you can \nenjoy the company of others and share your life experiences.
+\n5. Increase your capacities or develop your communication skills through meetings, trainings \nand training courses that the Red Cross offers.
+\n6. To ensure a better future for yourself through the training and work experience you gain at \nthe Albanian Red Cross, certificates or testimonies given for your participation in activities and trainings.</string>
+    <string name="blood_donation">Blood Donation</string>
+    <string name="volunteer">Volunteer</string>
+    <string name="todo">TODO</string>
+    <string name="why_volunteer">Why Volunteer?</string>
+    <string name="why_donate_blood">Why Donate Blood?</string>
+    <string name="blood_groups">Blood Groups</string>
+    <string name="blood_banks">Blood Banks</string>
+    <string name="programsfirst">Programs</string>
+    <string name="buttonexample">Buttonexample</string>
+    <string name="program">program</string>
 </resources>

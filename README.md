@@ -14,6 +14,7 @@ Gradle JDK: JetBrains Runtime version 11.0.15
 2. After setting up Android Studio on your device, copy the https link of this repository to clone thee project via Git on your Android Studio: (git clone repo link) https://github.com/rsk20/AlbanianRedCrossAPP.git 
 3. After waiting the ide to finish downloading and installing everything, you can proceed to build the app and than run it after choosing a device for the emulator or you can link your own physical device with WiFi or cable
 4. After linking the device or opening the emulator now the app must be installed and started to run on the device.
+5. Please keep your device in light mode, the design was thought that way
 
 --------------------------------------------------------
 

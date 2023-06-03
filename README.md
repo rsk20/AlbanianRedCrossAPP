@@ -1,15 +1,25 @@
 # AlbanianRedCross
 ![midlogo](https://user-images.githubusercontent.com/111432617/229651837-45bec1da-dcab-4cbb-a9a1-5f8098dc1dec.png)
 
+---------------------------------
+<h4>How to open and run Albanian Red Cross on your ide and device: </h4>
+
+Android Studio: Electric Eel | 2022.1.1 Patch 2
+Kotlin plugin: 221-1.8.0-release-for-android-studio-AS5591.52
+Android Gradle Plugin: 7.4.2
+Gradle: 7.5
+Gradle JDK: JetBrains Runtime version 11.0.15
+
+1. Download <b>Android Studio: Electric Eel | 2022.1.1 Patch 2</b> at https://developer.android.com/studio/
+2. After setting up Android Studio on your device, copy the https link of this repository to clone thee project via Git on your Android Studio: (git clone repo link) https://github.com/rsk20/AlbanianRedCrossAPP.git 
+3. After waiting the ide to finish downloading and installing everything, you can proceed to build the app and than run it after choosing a device for the emulator or you can link your own physical device with WiFi or cable
+4. After linking the device or opening the emulator now the app must be installed and started to run on the device.
+
+--------------------------------------------------------
+
+
 <h3><b>Project member & Leader:</b></h3> Resia Suvejda Kilic
 
-<h3><b>Distribution of roles and tasks:</b></h3>
-
-- Design and Style -> Resia
-- Flow and full business/system/technincal analysis of the app -> Resia
-- Home tab, menus and submenus -> Resia
-- Learn & Prepare tab, menus and submenus -> Resia
-- Emergency tab -> Resia
 
 <h3><b>Identified problem:</b></h3>
 
@@ -72,6 +82,8 @@ Creating an app about Albanian Red Cross and First Aid to make it easier for a u
 - The information provided should be accurate and up-to-date, following the latest guidelines and best practices.
 
 - The app should provide step-by-step instructions and visual aids for performing first aid techniques.
+
+- The user can continue where it left off
 
 
 <h4>4. Emergency Contact Information:</h4>

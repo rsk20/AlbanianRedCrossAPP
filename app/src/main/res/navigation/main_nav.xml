@@ -3,58 +3,123 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_nav"
-    app:startDestination="@id/home3">
+    app:startDestination="@id/home2">
 
     <fragment
-        android:id="@+id/home3"
+        android:id="@+id/home2"
         android:name="com.resia.albanianredcross.Home"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
-            android:id="@+id/action_home3_to_donationScreen"
+            android:id="@+id/action_home2_to_donationScreen"
             app:destination="@id/donationScreen" />
         <action
-            android:id="@+id/action_home3_to_volunteerScreen"
-            app:destination="@id/volunteerScreen" />
+            android:id="@+id/action_home2_to_activityScreen"
+            app:destination="@id/activityScreen" />
         <action
-            android:id="@+id/action_home3_to_programsScreen"
+            android:id="@+id/action_home2_to_programsScreen"
             app:destination="@id/programsScreen" />
         <action
-            android:id="@+id/action_home3_to_activityScreen"
-            app:destination="@id/activityScreen" />
+            android:id="@+id/action_home2_to_volunteerScreen"
+            app:destination="@id/volunteerScreen" />
     </fragment>
     <fragment
-        android:id="@+id/donationScreen"
-        android:name="com.resia.albanianredcross.DonationScreen"
-        android:label="fragment_donation_screen"
-        tools:layout="@layout/fragment_donation_screen" />
+        android:id="@+id/learn"
+        android:name="com.resia.albanianredcross.Learn"
+        android:label="fragment_learn"
+        tools:layout="@layout/fragment_learn" >
+        <action
+            android:id="@+id/action_learn_to_learnSection"
+            app:destination="@id/learnSection" />
+        <action
+            android:id="@+id/action_learn_to_prepareSection"
+            app:destination="@id/prepareSection" />
+    </fragment>
     <fragment
-        android:id="@+id/volunteerScreen"
-        android:name="com.resia.albanianredcross.VolunteerScreen"
-        android:label="fragment_volunteer_screen"
-        tools:layout="@layout/fragment_volunteer_screen" />
+        android:id="@+id/emergency"
+        android:name="com.resia.albanianredcross.Emergency"
+        android:label="fragment_emergency"
+        tools:layout="@layout/fragment_emergency" />
     <fragment
-        android:id="@+id/programsScreen"
-        android:name="com.resia.albanianredcross.ProgramsScreen"
-        android:label="fragment_programs_screen"
-        tools:layout="@layout/fragment_programs_screen" />
+        android:id="@+id/allergiesL"
+        android:name="com.resia.albanianredcross.AllergiesL"
+        android:label="fragment_allergies_l"
+        tools:layout="@layout/fragment_allergies_l" />
+    <fragment
+        android:id="@+id/bitesL"
+        android:name="com.resia.albanianredcross.BitesL"
+        android:label="fragment_bites_l"
+        tools:layout="@layout/fragment_bites_l" />
+    <fragment
+        android:id="@+id/bleedingL"
+        android:name="com.resia.albanianredcross.BleedingL"
+        android:label="fragment_bleeding_l"
+        tools:layout="@layout/fragment_bleeding_l" />
+    <fragment
+        android:id="@+id/chockingL"
+        android:name="com.resia.albanianredcross.ChockingL"
+        android:label="fragment_chocking_l"
+        tools:layout="@layout/fragment_chocking_l" />
+    <fragment
+        android:id="@+id/headInjuryL"
+        android:name="com.resia.albanianredcross.HeadInjuryL"
+        android:label="fragment_head_injury_l"
+        tools:layout="@layout/fragment_head_injury_l" />
+    <fragment
+        android:id="@+id/seizureL"
+        android:name="com.resia.albanianredcross.SeizureL"
+        android:label="fragment_seizure_l"
+        tools:layout="@layout/fragment_seizure_l" />
+    <fragment
+        android:id="@+id/earthquakeP"
+        android:name="com.resia.albanianredcross.EarthquakeP"
+        android:label="fragment_earthquake_p"
+        tools:layout="@layout/fragment_earthquake_p" />
+    <fragment
+        android:id="@+id/fireP"
+        android:name="com.resia.albanianredcross.FireP"
+        android:label="fragment_fire_p"
+        tools:layout="@layout/fragment_fire_p" />
+    <fragment
+        android:id="@+id/floodP"
+        android:name="com.resia.albanianredcross.FloodP"
+        android:label="fragment_flood_p"
+        tools:layout="@layout/fragment_flood_p" />
+    <fragment
+        android:id="@+id/tornadoP"
+        android:name="com.resia.albanianredcross.TornadoP"
+        android:label="fragment_tornado_p"
+        tools:layout="@layout/fragment_tornado_p" />
+    <fragment
+        android:id="@+id/tsunamiP"
+        android:name="com.resia.albanianredcross.TsunamiP"
+        android:label="fragment_tsunami_p"
+        tools:layout="@layout/fragment_tsunami_p" />
+    <fragment
+        android:id="@+id/waterP"
+        android:name="com.resia.albanianredcross.WaterP"
+        android:label="fragment_water_p"
+        tools:layout="@layout/fragment_water_p" />
     <fragment
         android:id="@+id/activityScreen"
         android:name="com.resia.albanianredcross.ActivityScreen"
         android:label="fragment_activity_screen"
         tools:layout="@layout/fragment_activity_screen" />
     <fragment
-        android:id="@+id/learn2"
-        android:name="com.resia.albanianredcross.Learn"
-        android:label="fragment_learn"
-        tools:layout="@layout/fragment_learn" >
-        <action
-            android:id="@+id/action_learn2_to_learnSection"
-            app:destination="@id/learnSection" />
-        <action
-            android:id="@+id/action_learn2_to_prepareSection"
-            app:destination="@id/prepareSection" />
-    </fragment>
+        android:id="@+id/donationScreen"
+        android:name="com.resia.albanianredcross.DonationScreen"
+        android:label="fragment_donation_screen"
+        tools:layout="@layout/fragment_donation_screen" />
+    <fragment
+        android:id="@+id/programsScreen"
+        android:name="com.resia.albanianredcross.ProgramsScreen"
+        android:label="fragment_programs_screen"
+        tools:layout="@layout/fragment_programs_screen" />
+    <fragment
+        android:id="@+id/volunteerScreen"
+        android:name="com.resia.albanianredcross.VolunteerScreen"
+        android:label="fragment_volunteer_screen"
+        tools:layout="@layout/fragment_volunteer_screen" />
     <fragment
         android:id="@+id/learnSection"
         android:name="com.resia.albanianredcross.LearnSection"
@@ -67,11 +132,11 @@
             android:id="@+id/action_learnSection_to_bleedingL"
             app:destination="@id/bleedingL" />
         <action
-            android:id="@+id/action_learnSection_to_chockingL"
-            app:destination="@id/chockingL" />
-        <action
             android:id="@+id/action_learnSection_to_bitesL"
             app:destination="@id/bitesL" />
+        <action
+            android:id="@+id/action_learnSection_to_chockingL"
+            app:destination="@id/chockingL" />
         <action
             android:id="@+id/action_learnSection_to_headInjuryL"
             app:destination="@id/headInjuryL" />
@@ -88,84 +153,19 @@
             android:id="@+id/action_prepareSection_to_earthquakeP"
             app:destination="@id/earthquakeP" />
         <action
-            android:id="@+id/action_prepareSection_to_fireP"
-            app:destination="@id/fireP" />
-        <action
-            android:id="@+id/action_prepareSection_to_floodP"
-            app:destination="@id/floodP" />
-        <action
             android:id="@+id/action_prepareSection_to_tornadoP"
             app:destination="@id/tornadoP" />
+        <action
+            android:id="@+id/action_prepareSection_to_waterP"
+            app:destination="@id/waterP" />
         <action
             android:id="@+id/action_prepareSection_to_tsunamiP"
             app:destination="@id/tsunamiP" />
         <action
-            android:id="@+id/action_prepareSection_to_waterP"
-            app:destination="@id/waterP" />
+            android:id="@+id/action_prepareSection_to_floodP"
+            app:destination="@id/floodP" />
+        <action
+            android:id="@+id/action_prepareSection_to_fireP"
+            app:destination="@id/fireP" />
     </fragment>
-    <fragment
-        android:id="@+id/allergiesL"
-        android:name="com.resia.albanianredcross.AllergiesL"
-        android:label="fragment_allergies_l"
-        tools:layout="@layout/fragment_allergies_l" />
-    <fragment
-        android:id="@+id/bleedingL"
-        android:name="com.resia.albanianredcross.BleedingL"
-        android:label="fragment_bleeding_l"
-        tools:layout="@layout/fragment_bleeding_l" />
-    <fragment
-        android:id="@+id/bitesL"
-        android:name="com.resia.albanianredcross.BitesL"
-        android:label="fragment_bites_l"
-        tools:layout="@layout/fragment_bites_l" />
-    <fragment
-        android:id="@+id/chockingL"
-        android:name="com.resia.albanianredcross.ChockingL"
-        android:label="fragment_chocking_l"
-        tools:layout="@layout/fragment_chocking_l" />
-    <fragment
-        android:id="@+id/earthquakeP"
-        android:name="com.resia.albanianredcross.EarthquakeP"
-        android:label="fragment_earthquake_p"
-        tools:layout="@layout/fragment_earthquake_p" />
-    <fragment
-        android:id="@+id/emergency2"
-        android:name="com.resia.albanianredcross.Emergency"
-        android:label="fragment_emergency"
-        tools:layout="@layout/fragment_emergency" />
-    <fragment
-        android:id="@+id/fireP"
-        android:name="com.resia.albanianredcross.FireP"
-        android:label="fragment_fire_p"
-        tools:layout="@layout/fragment_fire_p" />
-    <fragment
-        android:id="@+id/headInjuryL"
-        android:name="com.resia.albanianredcross.HeadInjuryL"
-        android:label="fragment_head_injury_l"
-        tools:layout="@layout/fragment_head_injury_l" />
-    <fragment
-        android:id="@+id/floodP"
-        android:name="com.resia.albanianredcross.FloodP"
-        android:label="fragment_flood_p"
-        tools:layout="@layout/fragment_flood_p" />
-    <fragment
-        android:id="@+id/seizureL"
-        android:name="com.resia.albanianredcross.SeizureL"
-        android:label="fragment_seizure_l"
-        tools:layout="@layout/fragment_seizure_l" />
-    <fragment
-        android:id="@+id/tornadoP"
-        android:name="com.resia.albanianredcross.TornadoP"
-        android:label="fragment_tornado_p"
-        tools:layout="@layout/fragment_tornado_p" />
-    <fragment
-        android:id="@+id/tsunamiP"
-        android:name="com.resia.albanianredcross.TsunamiP"
-        android:label="fragment_tsunami_p"
-        tools:layout="@layout/fragment_tsunami_p" />
-    <fragment
-        android:id="@+id/waterP"
-        android:name="com.resia.albanianredcross.WaterP"
-        android:label="fragment_water_p"
-        tools:layout="@layout/fragment_water_p" />
 </navigation>

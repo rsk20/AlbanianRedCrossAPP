@@ -7,6 +7,8 @@ import android.view.ViewGroup
 import android.widget.ImageButton
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import com.resia.albanianredcross.R.id.*
+import com.resia.albanianredcross.R.layout.fragment_home
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -36,40 +38,40 @@ class Home : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false)
+        return inflater.inflate(fragment_home, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val donateButton = view.findViewById<ImageButton>(R.id.DonateButton)
+        val donateButton = view.findViewById<ImageButton>(DonateButton)
 
         donateButton.setOnClickListener {
             findNavController().navigate(
-                R.id.donationScreen
+                donationScreen
             )
         }
 
-        val activityButton = view.findViewById<ImageButton>(R.id.ActivitiesButton)
+        val activityButton = view.findViewById<ImageButton>(ActivitiesButton)
 
         activityButton.setOnClickListener {
             findNavController().navigate(
-                R.id.activityScreen
+                activityScreen
             )
         }
 
-        val volunteerButton = view.findViewById<ImageButton>(R.id.VolunteerButton)
+        val volunteerButton = view.findViewById<ImageButton>(VolunteerButton)
 
         volunteerButton.setOnClickListener {
             findNavController().navigate(
-                R.id.volunteerScreen
+                volunteerScreen
             )
         }
 
-        val programsButton = view.findViewById<ImageButton>(R.id.ProgramsButton)
+        val programsButton = view.findViewById<ImageButton>(ProgramsButton)
 
         programsButton.setOnClickListener {
             findNavController().navigate(
-                R.id.programsScreen
+                programsScreen
             )
         }
     }

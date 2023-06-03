@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title="@string/Home"
+    <item android:title="Home"
         android:id="@+id/home2"
         android:icon="@drawable/home_24"
         />
-    <item android:title="@string/Learn"
+    <item android:title="Learn"
         android:id="@+id/learn"
         android:icon="@drawable/book_24"
         />
-    <item android:title="@string/Emergency"
+    <item android:title="Emergency"
         android:id="@+id/emergency"
         android:icon="@drawable/report_problem_24"
         />
-
 </menu>

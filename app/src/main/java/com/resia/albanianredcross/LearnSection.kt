@@ -1,0 +1,120 @@
+package com.resia.albanianredcross
+
+import android.os.Bundle
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.widget.ImageButton
+import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
+
+// TODO: Rename parameter arguments, choose names that match
+// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
+private const val ARG_PARAM1 = "param1"
+private const val ARG_PARAM2 = "param2"
+
+/**
+ * A simple [Fragment] subclass.
+ * Use the [LearnSection.newInstance] factory method to
+ * create an instance of this fragment.
+ */
+class LearnSection : Fragment() {
+    // TODO: Rename and change types of parameters
+    private var param1: String? = null
+    private var param2: String? = null
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        arguments?.let {
+            param1 = it.getString(ARG_PARAM1)
+            param2 = it.getString(ARG_PARAM2)
+        }
+    }
+
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_learn_section, container, false)
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        val bitesButton = view.findViewById<ImageButton>(R.id.bitesbutton)
+
+        bitesButton.setOnClickListener {
+            findNavController().navigate(
+                R.id.bitesL
+            )
+        }
+
+        val allergyButton = view.findViewById<ImageButton>(R.id.allergybutton)
+
+        allergyButton.setOnClickListener {
+            findNavController().navigate(
+                R.id.allergiesL
+            )
+        }
+
+        val bleedingButton = view.findViewById<ImageButton>(R.id.bleedingbutton)
+
+        bleedingButton.setOnClickListener {
+            findNavController().navigate(
+                R.id.bleedingL
+            )
+        }
+
+        val chockingButton = view.findViewById<ImageButton>(R.id.chockingbutton)
+
+        chockingButton.setOnClickListener {
+            findNavController().navigate(
+                R.id.chockingL
+            )
+        }
+
+        val injuryButton = view.findViewById<ImageButton>(R.id.injurybutton)
+
+        injuryButton.setOnClickListener {
+            findNavController().navigate(
+                R.id.headInjuryL
+            )
+        }
+
+        val seizureButton = view.findViewById<ImageButton>(R.id.seizurebutton)
+
+        seizureButton.setOnClickListener {
+            findNavController().navigate(
+                R.id.seizureL
+            )
+        }
+    }
+
+    companion object {
+        /**
+         * Use this factory method to create a new instance of
+         * this fragment using the provided parameters.
+         *
+         * @param param1 Parameter 1.
+         * @param param2 Parameter 2.
+         * @return A new instance of fragment LearnSection.
+         */
+        // TODO: Rename and change types and number of parameters
+        @JvmStatic
+        fun newInstance(param1: String, param2: String) =
+            LearnSection().apply {
+                arguments = Bundle().apply {
+                    putString(ARG_PARAM1, param1)
+                    putString(ARG_PARAM2, param2)
+                }
+            }
+    }
+}
+
+// Allergies
+// Seizure/Epilepsy
+// Stings/Bites
+// Bleeding
+// Chocking
+// Head injury

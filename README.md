@@ -1,7 +1,11 @@
 # AlbanianRedCross
 ![midlogo](https://user-images.githubusercontent.com/111432617/229651837-45bec1da-dcab-4cbb-a9a1-5f8098dc1dec.png)
 
+App/Project Presentation: [AlbanianRedCrossApp.pdf](https://github.com/rsk20/AlbanianRedCrossAPP/files/11941127/AlbanianRedCrossApp.pdf)
+
 ---------------------------------
+
+
 <h4>How to open and run Albanian Red Cross on your ide and device: </h4>
 
 Android Studio: Electric Eel | 2022.1.1 Patch 2
@@ -20,7 +24,6 @@ Gradle JDK: JetBrains Runtime version 11.0.15
 
 
 <h3><b>Project member & Leader:</b></h3> Resia Suvejda Kilic
-
 
 <h3><b>Identified problem:</b></h3>
 

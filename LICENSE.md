@@ -6,7 +6,7 @@ This repository and its contents (including but not limited to source code, docu
 
 Permission requests:
 To request permission to use this codebase (for personal, educational, research, or commercial purposes), please contact the author via GitHub profile:
-https://github.com/rsk20
+https://github.com/rsk20 or e-mail: rkilic20@epoka.edu.al
 
 Any permissions, if granted, will be documented in writing and may be subject to additional terms and conditions, including but not limited to licensing fees, attribution requirements, or usage restrictions.
 

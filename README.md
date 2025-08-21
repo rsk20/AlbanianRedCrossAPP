@@ -21,8 +21,6 @@ Gradle JDK: JetBrains Runtime version 11.0.15
 --------------------------------------------------------
 
 
-<h3><b>Project member & Leader:</b></h3> Resia Kilic
-
 <h3><b>Identified problem:</b></h3>
 
 Albanian Red Cross has a website, but has no application for mobile
